@@ -7,14 +7,20 @@ class SlackbotController < ApplicationController
   end
 
   def about
-    render json: {"text": "Hello! I'm Joyce Bot. I'm here to have fun and pet your cats! Here are some commands I know: "}.to_json
+    if valid_slack_token?
+      render json: {"text": "Hello! I'm Joyce Bot. I'm here to have fun and pet your cats! Here are some commands I know: "}.to_json
+    end
   end
 
   def expense
   end
 
+  def install
+  
+  end
+
   private
   def valid_slack_token?
-    params[:token] == ENV["SLACK_SIGNING_SECRET"]
+    params['token'] == ENV["SLACK_VERIFICATION_TOKEN"]
   end
 end
