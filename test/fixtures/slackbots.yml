@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slack_client_id: MyString
+  slack_api_secret: MyString
+  slack_redirect_uri: MyString
+  slack_verification_token: MyString
+
+two:
+  slack_client_id: MyString
+  slack_api_secret: MyString
+  slack_redirect_uri: MyString
+  slack_verification_token: MyString
