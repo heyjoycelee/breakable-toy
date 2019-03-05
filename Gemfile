@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'twilio-ruby'
 gem 'dotenv-rails', groups: [:development, :test]
+
+gem 'slack-ruby-client'
+gem 'async-websocket'
