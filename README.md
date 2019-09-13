@@ -4,6 +4,16 @@ This is my Frankenstein project which I use to try out new tools and APIs. It wa
 
 ## What have you tried so far?
 ### Slackbot
+* Created a slack button which lives at /slackbot/index, so the bot can be added to a workplace. When the bot is added, it messages all users auttomatically with an `@channel` to let them know it has been added. 
+
+* The about slash command tells you the commands the bot knows
+![about slash command](https://user-images.githubusercontent.com/17524777/53283243-35e9d780-3711-11e9-8e6b-e6418b986f56.png)
+![about slash command](https://user-images.githubusercontent.com/17524777/53283293-2919b380-3712-11e9-8153-a178cf09e4ab.png)
+
+* The oops slash command posts your message anonymously (without your name or info) to the #general channel.
+![oops slash command](https://user-images.githubusercontent.com/17524777/53822161-323e2800-3f3d-11e9-90f2-e6c5a61a68a5.png)
+![oops slash command](https://user-images.githubusercontent.com/17524777/53822187-3cf8bd00-3f3d-11e9-9d0b-9753e4ac86d5.png)
+
 ### Twilio
 
 ## Break Log
